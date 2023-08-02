@@ -1,0 +1,41 @@
+.d-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.d-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.d-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.d-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  
+}
+.grid-g {
+  gap: 30px;
+}
+.pad-10 {
+  padding: 10px;
+}
+.pad-30px {
+  padding: 30px 0;
+}
+.mar-r {
+  margin-right: 30px;
+}
+.mar-l {
+  margin-left: 30px;
+}
+.mar-t {
+  margin-top: 30px;
+}
+.mar-b {
+  margin-bottom: 30px;
+}
